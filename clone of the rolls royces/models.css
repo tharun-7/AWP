@@ -1,0 +1,289 @@
+/* Global styles */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Navigation styles */
+
+nav {
+  background-color: #222;
+  color: #fff;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ddd;
+}
+
+/* Hero section styles */
+
+.hero {
+  height: 100vh;
+  background-image: url("images/rolls_royce3.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+
+.hero p {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+/* Global styles */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Section styles */
+
+.section {
+  padding: 100px 0;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text-center {
+  text-align: center;
+  color: #fff;
+}
+
+/* Additional styles for the home section */
+
+#home {
+  background-image: url('path/to/your/image.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Additional styles for the login block */
+
+.login-block {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.login-block h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.login-block input[type="text"],
+.login-block input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-block button {
+  width: 100%;
+  padding: 10px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-block button:hover {
+  background-color: #111;
+}
+
+
+/* Models section styles */
+
+.models {
+  height: 100vh;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url("images/rolls_royce2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.model {
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  margin: 15px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.model:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+.model img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.model .content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 15px;
+  transform: translateY(100%);
+  transition: all 0.3s ease-in-out;
+}
+
+.model:hover .content {
+  transform: translateY(0);
+}
+
+.model h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.model p {
+  margin: 0;
+}
+
+/* Book now section styles */
+
+.book-now {
+  height: 100vh;
+  background-image: url("images/rolls_royce.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Section 1 */
+#section1 {
+  background-color: #333;
+}
+
+#section1 .container {
+  padding: 100px 15px;
+}
+
+#section1 .row.align-items-center .col-md-6 img {
+  width: 100%;
+  height: auto;
+  max-width: 600px; /* Increase the max-width to adjust the image size */
+  display: block;
+  margin: 0 auto;
+}
+
+/* Section 2 */
+#section2 {
+  background-color: #333;
+}
+
+#section2 .container {
+  padding: 100px 15px;
+}
+
+#section2 .row.align-items-center .col-md-6 img {
+  width: 100%;
+  height: auto;
+  max-width: 600px; /* Increase the max-width to adjust the image size */
+  display: block;
+  margin: 0 auto;
+}
+
+/* Section 3 */
+#section3 {
+  background-color: #333;
+}
+
+#section3 .container {
+  padding: 100px 15px;
+}
+
+#section3 .row.align-items-center .col-md-6 img {
+  width: 100%;
+  height: auto;
+  max-width: 600px; /* Increase the max-width to adjust the image size */
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* Section 4 */
+#section4 {
+  background-color: #333;
+}
+
+#section4 .container {
+  padding: 100px 15px;
+}
+
+#section4 .row.align-items-center .col-md-6 img {
+  width: 100%;
+  height: auto;
+  max-width: 600px; /* Increase the max-width to adjust the image size */
+  display: block;
+  margin: 0 auto;
+}

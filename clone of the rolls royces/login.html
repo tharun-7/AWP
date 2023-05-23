@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <div class="logo"></div>
+    <div class="login-block">
+        <h1>Login</h1>
+        <input type="text" value="" placeholder="Username" id="username" />
+        <input type="password" value="" placeholder="Password" id="password" />
+        <button onclick="login()">Submit</button>
+    </div>
+
+    <script>
+        function login() {
+            // Get the entered username and password
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+
+            // Perform login validation (replace with your own logic)
+            var isValidLogin = validateLogin(username, password);
+
+            // If login is valid, redirect to the home page
+            if (isValidLogin) {
+                window.location.href = "index.html";
+            }
+        }
+
+        function validateLogin(username, password) {
+            // Replace this with your own login validation logic
+            // For demonstration purposes, allow login with any username and password
+            return true;
+        }
+    </script>
+</body>
+</html>
